@@ -1,0 +1,7 @@
+*.o
+holepoked
+test_client
+test_server
+peer
+holepoke.pb.h
+peertopeer.pb.h

@@ -1,0 +1,32 @@
+Network Helper
+
+****************
+Linux
+****************
+Pre-requists: make, g++
+Build: ./linuxmake
+Clean: ./linuxmake clean
+
+****************
+OS X
+****************
+Pre-requisits: Xcode 3 or 4
+Build: make
+Clean: make clean
+
+****************
+Windows
+****************
+Pre-requisits: Visual C++ 2010 Evaluation, Google Protocol Buffer Compiler
+To build the Google Protocol Buffer Compiler:
+1. Download protobuf-2.4.1.zip source code
+2. Install Cygwin with gcc, g++, binutils, and make
+3. Unzip the source code in (1).
+4. cd into the source folder and then run the following 3 commands:
+./configure
+make
+make install
+
+Build: windowsmake
+Clean: windowsmake clean
+
